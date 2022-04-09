@@ -16,7 +16,11 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+Just require 'secret_pseudonym' in your code. Now you can use the method 'change_name' to form the author's secret alias.
+1) Create a new author in the library, e.g.
+     jo_oruel = Author.new("Джордж Оруэлл", library.authors)
+2) And create a secret alias for him
+     jo_oruel.change_name('jo_oruel.name')
 
 ## Development
 
